@@ -845,6 +845,11 @@ body {
 .nav-links {
   display: flex;
   gap: var(--space-16);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .nav-links a {
@@ -1538,6 +1543,11 @@ body {
   
   .nav-links {
     gap: var(--space-8);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .nav-links a {
